@@ -1,0 +1,152 @@
+#header .container {
+    height: 80px;
+}
+
+#header .inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    border-bottom: 1px solid #ddd;
+}
+
+#header .inner .flex_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+#header .inner h1 {
+    width: 90px;
+    font-size: 0;
+}
+
+#header .flex_inner .gnb {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#header .flex_inner .gnb>ul {
+    display: flex;
+    gap: 30px;
+}
+
+#header .flex_inner .gnb>ul>li a:hover {
+    color: #35C5F0;
+}
+
+#header .flex_inner .login>ul {
+    display: flex;
+    gap: 30px;
+
+    font-size: 14px;
+}
+
+#header .flex_inner .login>ul li {
+    position: relative;
+}
+
+#header .flex_inner .login>ul li~li::after {
+    content: "";
+    position: absolute;
+    top: 41%;
+    left: -15px;
+
+    width: 1px;
+    height: 18px;
+    background: #ddd;
+}
+
+#header .flex_inner .cart {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#header .flex_inner .search {
+    display: inline-flex;
+    align-items: center;
+    line-height: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 14px;
+}
+
+#header .flex_inner .search span {
+    font-size: 24px;
+    padding-right: 10px;
+    color: #828C94;
+    height: 40;
+    align-items: center;
+}
+
+#header .flex_inner .search input {
+    width: 200px;
+    height: 40px;
+    border: inherit;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+
+/* #header .flex_inner .search input:focus {
+    border: 1px solid #35C5F0;
+    border-left: none;
+    border-right: none;
+} */
+
+#header .flex_inner .search input:hover {
+    background: #f9f9f9;
+}
+
+#header .flex_inner .search:hover {
+    background: #f9f9f9;
+}
+
+#header .flex_inner .writing>a {
+    font-size: 16px;
+    font-weight: 500;
+    background: #35C5F0;
+    color: #fff;
+
+    padding: 9px 16px 9px 16px;
+    border-radius: 4px;
+}
+
+#header .flex_inner .writing>a:hover {
+    background: #2da5ca;
+}
+
+
+
+
+
+#header .flex_inner .gnb>ul>li .sub_gnb {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+
+
+    line-height: 60px;
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0;
+}
+
+
+#header .flex_inner .gnb>ul>li:hover .sub_gnb {
+    opacity: 1;
+}
+
+
+#header .flex_inner .sub02_gnb {
+    display: none;
+}

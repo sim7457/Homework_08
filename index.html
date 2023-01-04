@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의 집 - Homework08</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <div class="Wrap">
+        <header id="header">
+            <div class="container">
+                <div class="inner">
+                    <div class="flex_inner">
+                        <h1>
+                            <a href="#!">
+                                <img src="./img/hader_logo.png" alt="">
+                            </a>
+                        </h1>
+                        <nav class="gnb">
+                            <ul>
+                                <li>
+                                    <a href="" class="main_txt main_color">커뮤니티</a>
+                                    <ul class="sub_gnb on">
+                                        <li><a href="">홈</a></li>
+                                        <li><a href="">팔로잉</a></li>
+                                        <li><a href="">사진</a></li>
+                                        <li><a href="">집들이</a></li>
+                                        <li><a href="">노하우</a></li>
+                                        <li><a href="">전문가집들이</a></li>
+                                        <li><a href="">셀프가이드</a></li>
+                                        <li><a href="">질문과답변</a></li>
+                                        <li><a href="">3D인테리어<span>BETA</span></a></li>
+                                        <li><a href="">이벤트</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="" class="main_txt">스토어</a>
+                                    <ul class="sub_gnb">
+                                        <li><a href="">스토어홈</a></li>
+                                        <li><a href="">카테고리</a></li>
+                                        <li><a href="">베스트</a></li>
+                                        <li><a href="">오늘의딜</a></li>
+                                        <li><a href="">리퍼마켓</a></li>
+                                        <li><a href="">오!굿즈</a></li>
+                                        <li><a href="">빠른배송</a></li>
+                                        <li><a href="">오!쇼룸</a></li>
+                                        <li><a href="">프리미엄</a></li>
+                                        <li><a href="">기획전</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="" class="main_txt">이사/시공/수리</a>
+                                    <ul class="sub_gnb">
+                                        <li><a href="">홈</a></li>
+                                        <li><a href="">인테리어시공</a></li>
+                                        <li><a href="">이사</a></li>
+                                        <li><a href="">설치수리</a></li>
+                                        <li><a href="">우리동네아파트</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="search">
+                            <span><i class="xi-search"></i></span>
+                            <input type="text" placeholder="통합검색" autocomplete="off" aria-autocomplete="list">
+                        </div>
+                        <div class="cart">
+                            <a href="#!"><i class="xi-cart-o"></i></a>
+                        </div>
+                        <div class="login">
+                            <ul>
+                                <li><a href="">로그인</a></li>
+                                <li><a href="">회원가입</a></li>
+                                <li><a href="">고객센터</a></li>
+                            </ul>
+                        </div>
+                        <div class="writing">
+                            <a href="">
+                                글쓰기<i class="xi-angle-down-min"></i>
+                            </a>
+                            <div class="sub02_gnb">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <div class="left">
+                                                <img src="./img/hd_gnb01.PNG" alt="">
+                                            </div>
+                                            <div class="right">
+                                                <h3>사진/동영상 올리기</h3>
+                                                <p>우리 집의 공간과 나의 일상을 기록해 보세요.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="left">
+                                                <img src="img/hd_gnb02.PNG" alt="">
+                                            </div>
+                                            <div class="right">
+                                                <h3>집들이 글쓰기</h3>
+                                                <p>집에 관한 이야기를 글로 작성해 보세요.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="left">
+                                                <img src="img/hd_gnb03.PNG" alt="">
+                                            </div>
+                                            <div class="right">
+                                                <h3>노하우 글쓰기</h3>
+                                                <p>다양한 인테리어 노하우를 공유해 주세요.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="left">
+                                                <img src="img/hd_gnb04.PNG" alt="">
+                                            </div>
+                                            <div class="right">
+                                                <h3>상품 리뷰 쓰기</h3>
+                                                <p>상품 리뷰를 작성하고 포인트도 받아 보세요.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="left">
+                                                <img src="img/hd_gnb05.PNG" alt="">
+                                            </div>
+                                            <div class="right">
+                                                <h3>시공 전문가 리뷰쓰기</h3>
+                                                <p>시공 전문가 리뷰를 작성하고 포인트도 받아 보세요.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="left">
+                                                <img src="img/hd_gnb06.PNG" alt="">
+                                            </div>
+                                            <div class="right">
+                                                <h3>인테리어 질문하기</h3>
+                                                <p>인테리어 고수들과 전문가들에게 질문해 보세요.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+
+
+
+
+
+
+
+
+        <main>
+
+        </main>
+        <footer id="footer">
+
+        </footer>
+    </div>
+</body>
+
+</html>
